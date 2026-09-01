@@ -472,7 +472,7 @@ local function showLoginUI()
   end
 
   buyBtn.onClick = function()
-    activity.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://slidermodmenucodm-registerdeviceid-garena.onrender.com/free")))
+    activity.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://codm-garena-panel.onrender.com/free")))
   end
 
   teleLink.onClick = function()
