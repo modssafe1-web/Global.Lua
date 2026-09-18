@@ -54,7 +54,7 @@ local cardColor = 0xFF202020
 local buttonColor = 0xFF969696
 local connectingColor = 0xFF999999
 local targetGame = "CODM"
-local webPanelURL = "https://codmglobalpanel-4hsn.onrender.com/verify"
+local webPanelURL = "https://codmglobalpanel-tr09.onrender.com/verify"
 
 local pref = activity.getSharedPreferences("login_pref", 0)
 
@@ -473,7 +473,7 @@ local function showLoginUI()
   end
 
   buyBtn.onClick = function()
-    activity.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://codm-garena-panel.onrender.com/free")))
+    activity.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/phia_maganda")))
   end
 
   teleLink.onClick = function()
